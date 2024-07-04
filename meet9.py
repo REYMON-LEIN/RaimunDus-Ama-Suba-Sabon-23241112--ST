@@ -1,12 +1,13 @@
-#Belajar mulit percabangan
+# belajar multi percabangan
 
-nama = input ("masukan nama :")
-if nama=="edy": # kondisi 1
-    print("dosen ganteng") #aksi true 1
-elif nama=="dila": #kondisi 2
-    print("mahasiswi cantik") #aksi true 2
-elif nama=="putra": #kondisi 3
-    print("mahasiswa gk ganteng") #aksi true 3
-else:
-    print("anda bukan siapa-siapa") #false
-    print("program selesai") #aksi end
+nama = input("Masukkan nama anda: ")
+if nama == "edy": # kondisi 1
+  print("Dosen ganteng \n") # aksi true 1
+elif nama == "dila": # kondisi 2
+  print("mahasiswi cantik \n") # aksi true 2
+elif nama == "putra": # kondisi 3
+  print("mahasiswa gak ganteng \n") # aksi true 3
+else: 
+  print(nama, "gak ada di daftar") # aksi false
+print("program selesai") # aksi end
+
